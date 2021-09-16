@@ -1,21 +1,47 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,500;1,500&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-}
-* body {
+body {
   font-family: "Barlow Semi Condensed";
+  background-color: #cfcfcf;
 }
-* body section article {
-  width: 275px;
+body section .one {
   background-color: #7541c8;
+  color: #cfcfcf;
+}
+body section .two {
+  background-color: #48556a;
+}
+body section .three {
+  background-color: white;
+}
+body section .four {
+  background-color: #19212e;
+}
+body section .five {
+  background-color: white;
+}
+body section article {
   border-radius: 10px;
   font-weight: 500;
   font-size: 13px;
   padding: 25px;
 }
-* body section article :nth-child(2) {
+body section article :nth-child(2) {
   opacity: 50%;
+}
+body section article q {
+  opacity: 70%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body section {
+  width: min(85%, 75rem);
+  display: grid;
+  gap: 25px;
+  margin: 50px auto;
 }
 
 /*# sourceMappingURL=css.css.map */

@@ -1,22 +1,19 @@
-@use "./colorsAndFonts/index" as text;
+@use "./components/articleStyle";
 
 * {
   margin: 0;
   padding: 0;
-  body {
-    font-family: text.$fontFamily;
-    section {
-      article {
-        width: 275px;
-        background-color: text.$Moderateviolet;
-        border-radius: 10px;
-        font-weight: text.$fontWeightFive;
-        font-size: text.$fontSize;
-        padding: 25px;
-        :nth-child(2) {
-          opacity: 50%;
-        }
-      }
-    }
+}
+
+body {
+
+  section {
+    width: min(85%, 75rem);
+    display: grid;
+    gap: 25px;
+    margin: 50px auto;
+
+
   }
 }
+

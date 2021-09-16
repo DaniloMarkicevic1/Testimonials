@@ -1,0 +1,38 @@
+@use "../colorsAndFonts/index" as text;
+
+body {
+  font-family: text.$fontFamily;
+  background-color: text.$Lightgray;
+  section {
+    .one {
+      background-color: text.$Moderateviolet;
+      color: text.$Lightgray;
+    }
+    .two {
+      background-color: text.$Verydarkgrayishblue;
+    }
+    .three {
+      background-color: text.$White;
+    }
+    .four {
+      background-color: text.$Verydarkblackishblue;
+    }
+    .five {
+      background-color: text.$White;
+    }
+    article {
+      // width: 275px;
+      //   background-color: text.$Moderateviolet;
+      border-radius: 10px;
+      font-weight: text.$fontWeightFive;
+      font-size: text.$fontSize;
+      padding: 25px;
+      :nth-child(2) {
+        opacity: 50%;
+      }
+      q {
+        opacity: 70%;
+      }
+    }
+  }
+}
