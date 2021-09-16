@@ -1,0 +1,22 @@
+@use "./colorsAndFonts/index" as text;
+
+* {
+  margin: 0;
+  padding: 0;
+  body {
+    font-family: text.$fontFamily;
+    section {
+      article {
+        width: 275px;
+        background-color: text.$Moderateviolet;
+        border-radius: 10px;
+        font-weight: text.$fontWeightFive;
+        font-size: text.$fontSize;
+        padding: 25px;
+        :nth-child(2) {
+          opacity: 50%;
+        }
+      }
+    }
+  }
+}

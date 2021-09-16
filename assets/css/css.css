@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,500;1,500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+* body {
+  font-family: "Barlow Semi Condensed";
+}
+* body section article {
+  width: 275px;
+  background-color: #7541c8;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 13px;
+  padding: 25px;
+}
+* body section article :nth-child(2) {
+  opacity: 50%;
+}
+
+/*# sourceMappingURL=css.css.map */
