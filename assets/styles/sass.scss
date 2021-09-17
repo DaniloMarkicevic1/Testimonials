@@ -1,19 +1,17 @@
 @use "./components/articleStyle";
-
+@use "./breakpoints/breakpoints";
+@use "./components/helper";
 * {
   margin: 0;
   padding: 0;
 }
 
 body {
-
   section {
-    width: min(85%, 75rem);
+    width: min(90%, 75rem);
     display: grid;
-    gap: 25px;
+    gap: 30px;
     margin: 50px auto;
-
-
   }
 }
 
