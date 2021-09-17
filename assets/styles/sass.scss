@@ -12,6 +12,12 @@ body {
     display: grid;
     gap: 30px;
     margin: 50px auto;
+    .quote-mark {
+      background-image: url("../images/bg-pattern-quotation.svg");
+      background-repeat: no-repeat;
+      background-position: top right;
+      background-size: 100px 100px;
+      background-position: top right 20%;
+    }
   }
 }
-

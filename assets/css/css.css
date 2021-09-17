@@ -76,7 +76,6 @@ body section article q {
 }
 @media screen and (max-width: 640px) {
   body section {
-    width: min(60%, 75rem);
     display: grid;
     gap: 25px;
     margin: 50px auto;
@@ -106,6 +105,13 @@ body section {
   display: grid;
   gap: 30px;
   margin: 50px auto;
+}
+body section .quote-mark {
+  background-image: url("../images/bg-pattern-quotation.svg");
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 100px 100px;
+  background-position: top right 20%;
 }
 
 /*# sourceMappingURL=css.css.map */
