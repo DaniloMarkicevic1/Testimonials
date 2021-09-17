@@ -1,0 +1,50 @@
+@use "../colorsAndFonts/index" as text;
+
+body {
+  font-family: text.$fontFamily;
+  background-color: text.$Lightgray;
+  section {
+    .one {
+      background-color: text.$Moderateviolet;
+      color: text.$White;
+      q {
+        color: text.$Lightgray;
+      }
+    }
+    .two {
+      background-color: text.$Verydarkgrayishblue;
+      color: text.$White;
+    }
+    .three {
+      background-color: text.$White;
+      color: text.$Verydarkgrayishblue;
+    }
+    .four {
+      background-color: text.$Verydarkblackishblue;
+      color: text.$White;
+    }
+    .five {
+      background-color: text.$White;
+      color: text.$Verydarkgrayishblue;
+    }
+    article {
+      border-radius: 10px;
+      font-weight: text.$fontWeightFive;
+      font-size: text.$fontSize;
+      padding: 32px;
+      :nth-child(3) {
+        opacity: 50%;
+        font-size: 11px;
+      }
+      .heading-text {
+        font-size: 18px;
+        margin-top: 10px;
+        padding: 14px 0 20px 0;
+      }
+      q {
+        opacity: 70%;
+        line-height: 18px;
+      }
+    }
+  }
+}
