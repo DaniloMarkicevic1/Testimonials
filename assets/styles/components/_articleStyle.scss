@@ -2,30 +2,30 @@
 
 body {
   font-family: text.$fontFamily;
-  background-color: text.$Lightgray;
+  background-color: text.$lightgray;
   section {
     .one {
-      background-color: text.$Moderateviolet;
-      color: text.$White;
+      background-color: text.$moderateviolet;
+      color: text.$white;
       q {
-        color: text.$Lightgray;
+        color: text.$lightgray;
       }
     }
     .two {
-      background-color: text.$Verydarkgrayishblue;
-      color: text.$White;
+      background-color: text.$verydarkgrayishblue;
+      color: text.$white;
     }
     .three {
-      background-color: text.$White;
-      color: text.$Verydarkgrayishblue;
+      background-color: text.$white;
+      color: text.$verydarkgrayishblue;
     }
     .four {
-      background-color: text.$Verydarkblackishblue;
-      color: text.$White;
+      background-color: text.$verydarkblackishblue;
+      color: text.$white;
     }
     .five {
-      background-color: text.$White;
-      color: text.$Verydarkgrayishblue;
+      background-color: text.$white;
+      color: text.$verydarkgrayishblue;
     }
     article {
       border-radius: 10px;
